@@ -1,0 +1,23 @@
+/* navbar */
+
+.navbarcolor {
+    background-color: #4e4e3a;
+    font-size: larger;    
+} 
+
+u {
+    color: #deb846;
+}
+
+#recipe, video {
+    color: #deb846;
+}
+
+#video {
+    color: #deb846;
+}
+
+.navbar-nav {
+    padding-left: 24px;
+}
+
