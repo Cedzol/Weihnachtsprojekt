@@ -19,14 +19,21 @@ u {
     color: #a89049;
 }
 
+#index {
+    color: #a89049;
+}
+
 .navbar-nav {
     padding-left: 24px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
+/*index*/
+
 .background {
     background-image: url("../Pictures/background.jpg");
+    background-attachment: fixed;
     text-align: center;
     font-size: 5vw;
     font-style: italic;
@@ -36,8 +43,42 @@ u {
     color: #635016;
 }
 
+
+p {
+    padding-bottom: 30px;
+}
+
+/*impressum background*/
+
+.footimage {
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+}
+
 body {
-    background-image: url("../Pictures/wood.jpg");
-    background-size: 200%;
+    background-image: url("../Pictures/background.jpg");
+    background-size: 100%;
+    object-fit: fill;
     background-repeat: no-repeat;
 }
+.title {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: #3d3316;
+}
+
+.ing {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.card-text{
+    font-size: large;
+}
+
+.ingredients {
+    padding-left: 20px;
+} 
