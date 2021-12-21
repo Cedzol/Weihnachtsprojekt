@@ -1,7 +1,7 @@
 /* navbar */
 
 .navbarcolor {
-    background-image: url("../Pictures/wood.jpg");
+    background-image: url("wood.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     font-size: larger;    
@@ -32,7 +32,7 @@ u {
 /*index*/
 
 .background {
-    background-image: url("../Pictures/background.jpg");
+    background-image: url("background.jpg");
     background-attachment: fixed;
     text-align: center;
     font-size: 5vw;
@@ -57,7 +57,7 @@ p {
 }
 
 body {
-    background-image: url("../Pictures/background.jpg");
+    background-image: url("background.jpg");
     background-size: 100%;
     object-fit: fill;
     background-repeat: no-repeat;
