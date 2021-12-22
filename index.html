@@ -147,7 +147,7 @@
     </div>
 
     <div class="col-lg-2">
-      <div class="card" style="width: 350px;" style="height: 500px;">
+      <div class="card" style="width: 350px;" style="height: 100px;">
         <img class="card-img-top" src="step_1.PNG" alt="Washing hands">
         <div class="card-body">
           <p class="card-text">Step: 1</p>
@@ -160,7 +160,7 @@
     </div>
 
       <div class="col-lg-2">
-        <div class="card" style="min-width: 350px;" style="min-height: 500px;">
+        <div class="card" style="width: 350px;" style="height: 200px;">
           <img class="card-img-top" src="miseenplace.jpg" alt="Mise en place">
           <div class="card-body">
             <p class="card-text">Step: 2</p>
@@ -175,7 +175,7 @@
 
       <div class="col-lg-2">
         <div class="card" style="width: 350px;" style="height: 500px;">
-          <video src="lemon.mp4" autoplay loop></video>
+          <video src="lemon.mp4" class="clip"   loop></video>
           <div class="card-body">
             <p class="card-text">Step: 3</p>
             <p class="card-text">Press out the juice from the lemons</p>
@@ -191,10 +191,10 @@
 
     <div class="col-lg-2">
       <div class="card" style="width: 350px;" style="height: 500px;">
-        <video src="dry.mp4" autoplay loop></video>
+        <video src="dry.mp4" class="clip"   loop></video>
         <div class="card-body">
           <p class="card-text">Step: 4</p>
-          <p class="card-text">Add Flour, Cinnamon, chopped almonds, Baking-soda, Baking-Powder and a pinch of salt in a bowl</p>
+          <p class="card-text">Add flour, cinnamon, chopped almonds, baking-soda, baking-Powder and a pinch of salt in a bowl</p>
         </div>
       </div>
     </div>
@@ -202,12 +202,97 @@
     <div class="col-lg-2">
     </div>
 
+    <div class="col-lg-2">
+      <div class="card" style="width: 350px;" style="height: 500px;">
+        <video src="whisking.mp4" class="clip"   loop></video>
+        <div class="card-body">
+          <p class="card-text">Step: 5</p>
+          <p class="card-text">Add the cane sugar and whisk so it's nicely mixed</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2">
+    </div>
+
+    <div class="col-lg-2">
+      <div class="card" style="width: 350px;" style="height: 500px;">
+        <video src="wet.mp4" class="clip"   loop></video>
+        <div class="card-body">
+          <p class="card-text">Step: 6</p>
+          <p class="card-text">Add the sour cream, oil, lemon juice and the egg in the bowl, whisk so it's nicely mixed</p>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1">
+    </div>
+
+    <div class="col-lg-2">
+      <div class="card" style="width: 350px;" style="height: 500px;">
+        <video src="form.mp4" class="clip"   loop></video>
+        <div class="card-body">
+          <p class="card-text">Step: 7</p>
+          <p class="card-text">Wash out your form and fill it up (max. 3/4 height)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2">
+    </div>
+
+    <div class="col-lg-2">
+      <div class="card" style="width: 350px;" style="height: 500px;">
+        <video src="oven180.mp4" class="clip"   loop></video>
+        <div class="card-body">
+          <p class="card-text">Step: 7</p>
+          <p class="card-text">Place the form in the oven at 180 degrees celsius for about 25 minutes</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2">
+    </div>
+
+    <div class="col-lg-2">
+      <div class="card" style="width: 350px;" style="height: 500px;">
+        <img class="card-img-top" src="cake.PNG" alt="Finished cake">
+        <div class="card-body">
+          <p class="card-text">Step: 8</p>
+          <p class="card-text">Take the form out the oven and let it cool. After 10 minutes turn over the form and the cake should fall out.  </p>
+        </div>
+      </div>
+    </div>
     
       
     </div>
   </div>
 </div>
 
+<p class="impresstitle">Impressum</p>
+<p class="impress">Inhaber: Cedric Zollinger</p>
+<p class="impress">Firma: Noser Young</p>
+<p class="impress">Standort: Herostrasse 12, 8048</p>
+<p class="impress">Telefon. 079 793 46 24</p>
+
+
+<script>
+  const clip = document.querySelectorAll('.clip');
+  for (let i = 0; i < clip.length; i++){
+    clip[i].addEventListener('mouseenter',
+    function(e){
+      clip[i].play()
+    })
+    clip[i].addEventListener('mouseout',
+    function(e){
+      clip[i].pause()
+    })
+  }
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
