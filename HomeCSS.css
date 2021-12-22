@@ -8,19 +8,16 @@
 } 
 
 u {
-    color: #a89049;
+    color: #00c3ff;
 }
 
-#recipe, video {
-    color: #a89049;
-}
 
 #video {
-    color: #a89049;
+    color: #00c3ff;
 }
 
 #index {
-    color: #a89049;
+    color: #00c3ff;
 }
 
 .navbar-nav {
@@ -88,12 +85,19 @@ body {
 .impresstitle {
     text-align: center;
     font-size: 30px;
-    color: #3d3316;
+    color: #00c3ff;
 }
 
 .impress {
 text-align: center;
 font-size: 20px;
-color: #3d3316;
+color: #00c3ff;
 }
+ 
 
+#impr{
+    background-image: url("wood.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: larger;  
+}
