@@ -43,8 +43,12 @@ p {
 
 body {
     background-image: url("background.jpg");
-    background-size: 100%;
+    background-size: cover;
+    height: 100%;
     background-attachment: fixed;
+   
+    transform:translatez(0);
+    -webkit-transform:translatez(0);
 }
 .title {
     text-align: center;
@@ -75,4 +79,8 @@ body {
 
 .row {
     padding-bottom: 50px;
+}
+
+.col-lg-2 {
+    padding-bottom: 10px;
 }
